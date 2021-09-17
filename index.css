@@ -188,7 +188,7 @@ input[type=text], select, textarea {
     h2{
         width: 100%;
         line-height: 200%;
-        text-align: initial;
+        text-align: center;
     }
     .contact{
         display: grid;
@@ -213,6 +213,7 @@ input[type=text], select, textarea {
   }
   a{
       font-size: 20px;
+      font-weight: bold;
       padding: 5vh 1vw;
   }
   ul{
