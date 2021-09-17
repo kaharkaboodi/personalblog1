@@ -212,7 +212,7 @@ input[type=text], select, textarea {
      width: 98%;
   }
   a{
-      font-size: 2.5vw;
+      font-size: 16px;
       padding: 5vh 1vw;
   }
   ul{
