@@ -188,7 +188,7 @@ input[type=text], select, textarea {
     h2{
         width: 100%;
         line-height: 200%;
-        text-align: center;
+        text-align: justify;
     }
     .contact{
         display: grid;
@@ -211,19 +211,21 @@ input[type=text], select, textarea {
      grid-template-columns: auto;
      width: 98%;
   }
-  a{
+  a{  
+      text-align: center;
+     display: inline-block;
       font-size: 16px;
-      font-weight: bold;
-      padding: 5vh 1vw;
+      height: 1vh;
   }
   ul{
-      display: flex;
-     justify-content: center;
-     gap: 0;
-     width: 95%;
+     display: flex;
+  }
+  li{
+      margin: 0;
   }
 }
-@media (max-width : 1200px) {
+
+ @media (max-width : 1200px) {
     .flex{
         flex-direction: column;
         
