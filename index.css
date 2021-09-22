@@ -58,10 +58,11 @@ a{background-color:  #221fb6; font-size: 1.5vw;
     width: 30%;
     border:solid #333652 8px;
 }
-h2{
+h3{
+    font-size: 1.5rem;
     width: 65%;
    line-height: 200%;
-   text-align: justify;
+   text-align:left
 }
 .grid{
     display: grid;
@@ -185,14 +186,14 @@ input[type=text], select, textarea {
         width: 100%;
         border:solid #333652 8px;
     }
-    h2{
-        width: 100%;
-        line-height: 200%;
-        text-align: justify;
-    }
     .contact{
         display: grid;
         grid-template-columns: 100%;
+    }
+    h3{
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: left;
     }
 
 .mapouter{position:relative;text-align:right;width:100%;height:510px;}
@@ -219,9 +220,13 @@ input[type=text], select, textarea {
   }
   ul{
      display: flex;
+     justify-content: center;
   }
   li{
       margin: 0;
+  }
+  li:last-child{
+      display: none;
   }
 }
 
@@ -233,5 +238,8 @@ input[type=text], select, textarea {
     .flex img{
         width: 100%;
         border:solid #333652 8px;
+    }
+    h3{
+        width: 100%;
     }
 }
